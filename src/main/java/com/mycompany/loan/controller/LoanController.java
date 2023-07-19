@@ -9,10 +9,9 @@ public class LoanController {
 
     @GetMapping(value = "/v1/api/calculate-loan-amount")
     public Double calculateLoanAmount(@RequestParam(value="desiredAmount") Double principal, @RequestParam(value = "paybackTime") Float numberOfYears) {
-        System.out.println("Testing Git command - 3");
         System.out.println("Testing Git command - 1");
         System.out.println("Testing Git command - 2");
-
+        System.out.println("Testing Git command - 3");
         System.out.println("Testing Git command - 4");
         return principal * numberOfYears;
     }
