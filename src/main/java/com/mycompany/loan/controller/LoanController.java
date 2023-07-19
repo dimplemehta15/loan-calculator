@@ -12,6 +12,7 @@ public class LoanController {
         System.out.println("Testing Git command - 3");
         System.out.println("Testing Git command - 1");
         System.out.println("Testing Git command - 2");
+        System.out.println("Testing Git command - 5");
         return principal * numberOfYears;
     }
 }
